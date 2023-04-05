@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import TabCardGrid from './card/TabCardGrid.js';
 import tw from 'twin.macro'
