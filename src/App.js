@@ -1,24 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-
+import TabCardGrid from './card/TabCardGrid.js';
+import tw from 'twin.macro'
+const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block italic`;
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <TabCardGrid
+        heading={
+          <>
+            Checkout our <HighlightedText>menu.</HighlightedText>
+          </>
+        }
+      />
   );
 }
 
