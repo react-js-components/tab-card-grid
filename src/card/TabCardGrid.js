@@ -58,7 +58,7 @@ const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
   ${tw`pointer-events-none -z-20 absolute left-0 bottom-0 h-80 w-80 opacity-15 transform -translate-x-2/3 text-primary-500`}
 `;
 
-export default ({
+export const Cc= ({
   heading = "Checkout the Menu",
   tabs = {
     Starters: [
